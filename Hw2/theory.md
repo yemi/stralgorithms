@@ -1,10 +1,13 @@
-## a)
+**a)**
 
 A = [5, 4, 3, 2, 1]
 
 1st:  [4, 3, 2, 1, 5] \(n-1 jämförelser\) -> isReady == false (n-1 jämförelser)
+
 2nd: [3, 2, 1, 4, 5] \(n-1 jämförelser\) -> isReady == false (n-1 jämförelser)
+
 3rd:  [2, 1, 3, 4, 5] \(n-1 jämförelser\) -> isReady == false (n-1 jämförelser)
+
 4th:  [1, 2, 3, 4, 5] \(n-1 jämförelser\) -> isReady == true (n-1 jämförelser)
 
 Minst antal jämförelser: (n-1) + (n-1) = 2n - 2
