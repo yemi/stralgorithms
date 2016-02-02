@@ -24,7 +24,8 @@ f(x) <= Mg(x)
 
 låt x<sub>0</sub> = 1 och M = 8
 
-f(x) = 2n<sup>2</sup> - 4n +  2 <= 2n<sup>2</sup> - 4n<sup>2</sup> + 2n<sup>2</sup> = 8n<sup>2</sup>
+f(x) = 2n<sup>2</sup> - 4n +  2 <= 2n<sup>2</sup> + 4n<sup>2</sup> + 2n<sup>2</sup> = 8n<sup>2</sup>
+(från https://en.wikipedia.org/wiki/Big_O_notation#Example)
 
 f(x) = O(n<sup>2</sup>)
 
