@@ -11,8 +11,8 @@ A = [5, 4, 3, 2, 1]
 4th:  [1, 2, 3, 4, 5] \(n-1 jämförelser\) -> isReady == true (n-1 jämförelser)
 
 Minst antal jämförelser: (n-1) + (n-1) = 2n - 2
-Max antal jämförelser: (n-1) * (2n-2) = (n-1) * 2(n-1) = 2n<sup>2</sup> - 2n - 2n + 2 = 2n<sup>2</sup> - 4n +  2 =  **O(n2)** 
+Max antal jämförelser: (n-1) * (2n-2) = (n-1) * 2(n-1) = 2n<sup>2</sup> - 2n - 2n + 2 = 2n<sup>2</sup> - 4n +  2 =  **O(n<sup>2</sup>)** 
 
-_Varför blir det O(n2)?_ För att n2 blir större än 4n för ett tillräckligt stort värde på n och
+_Varför blir det O(n<sup>2</sup>)?_ För att n<sup>2</sup> blir större än 4n för ett tillräckligt stort värde på n och
 för att vi inte är intresserade av konstanter (2) iom att de inte påverkas av värdet n.
 
