@@ -12,7 +12,7 @@ A = [5, 4, 3, 2, 1]
 
 Minst antal jämförelser: (n-1) + (n-1) = 2n - 2
 
-Max antal jämförelser: (n-1) * (2n-2) = (n-1) * 2(n-1) = 2n<sup>2</sup> - 2n - 2n + 2 = 2n<sup>2</sup> - 4n +  2 =  **O(n<sup>2</sup>)** 
+Max antal jämförelser: (n-1) * (2n-2) = (n-1) * 2(n-1) = 2n<sup>2</sup> - 2n - 2n + 2 = 2n<sup>2</sup> - 4n +  2
 
 f(x) = O(g(x)) om det finns positiva konstanter M och n<sub>0</sub> så att T(n) <= Mf(n) för alla n >= n<sub>0</sub>
 
@@ -24,7 +24,9 @@ f(x) <= Mg(x)
 
 låt x<sub>0</sub> = 1 och M = 8
 
-f(x) = 2n<sup>2</sup> - 4n +  2 <= 2n<sup>2</sup> - 4n<sup>2</sup> + 2n<sup>2</sup> <= 8n<sup>2</sup>
+f(x) = 2n<sup>2</sup> - 4n +  2 <= 2n<sup>2</sup> - 4n<sup>2</sup> + 2n<sup>2</sup> = 8n<sup>2</sup>
+
+f(x) = O(n<sup>2</sup>)
 
 ---
 
