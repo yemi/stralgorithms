@@ -20,7 +20,7 @@ T(n) = 2n<sup>2</sup> - 4n +  2
 
 g(n) = n<sup>2</sup>
 
-f(n) <= Mg(n)
+T(n) <= Mg(n)
 
 låt n<sub>0</sub> = 1 och M = 8
 
