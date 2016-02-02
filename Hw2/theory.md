@@ -14,9 +14,19 @@ Minst antal jämförelser: (n-1) + (n-1) = 2n - 2
 
 Max antal jämförelser: (n-1) * (2n-2) = (n-1) * 2(n-1) = 2n<sup>2</sup> - 2n - 2n + 2 = 2n<sup>2</sup> - 4n +  2 =  **O(n<sup>2</sup>)** 
 
-_Varför blir det O(n<sup>2</sup>)?_ För att n<sup>2</sup> blir större än 4n för ett tillräckligt stort värde på n och
-för att vi inte är intresserade av konstanter (2) iom att de inte påverkas av värdet n.
+f(x) = O(g(x)) om det finns positiva konstanter M och n<sub>0</sub> så att T(n) <= Mf(n) för alla n >= n<sub>0</sub>
 
+f(x) = 2n<sup>2</sup> - 4n +  2 
+
+g(x) = n<sup>2</sup>
+
+f(x) <= Mg(x)
+
+låt x<sub>0</sub> = 1 och M = 8
+
+f(x) = 2n<sup>2</sup> - 4n +  2 <= 2n<sup>2</sup> - 4n<sup>2</sup> + 2n<sup>2</sup> <= 8n<sup>2</sup>
+
+---
 
 Här var jag nog lite otydlig. Trodde att det stod bättre beskrivet i snilssons hemsida än vad de gjorde.
 Kolla definitionen på https://en.wikipedia.org/wiki/Big_O_notation och i boken.
